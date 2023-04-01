@@ -1,0 +1,20 @@
+
+{
+    "name": "Test Extension",
+    "description": "This extension is created for test",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+      "default_title": "Next.js Browser Extension Demo",
+      "default_popup": "index.html"
+     
+    },
+    "permissions": [
+		"activeTab",
+		"scripting",
+    "webNavigation"
+	],
+	"background": {
+		"service_worker": "background.js"
+	}
+  }
